@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_category"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/biographies_and_history"
+            android:title="Biographies and history"/>
+        <item android:id="@+id/business_and_investment"
+            android:title="Business and investment"/>
+        <item android:id="@+id/marketing_and_sales"
+            android:title="Marketing and Sales"/>
+        <item android:id="@+id/personal_development_and_self_improvement"
+            android:title="Personal Development and Self improvement"/>
+        <item android:id="@+id/memory_and_study_techniques_in_telugu"
+            android:title="Memory and Study techniques in telugu"/>
+        <item android:id="@+id/productivity_and_time_management"
+            android:title="Productivity and Time management"/>
+        <item android:id="@+id/habits_for_success"
+            android:title="Habits for success"/>
+        <item android:id="@+id/morning_motivation"
+            android:title="Morning Motivation"/>
+        <item android:id="@+id/TOP_SELF_HELP_BOOKS_EXPLAINED_IN_TELUGU"
+            android:title="TOP SELF HELP BOOKS EXPLAINED IN TELUGU"/>
+        <item android:id="@+id/success_qualities_of_highly_successful_people"
+            android:title="Success Qualities of Highly Successful people"/>
+        <item android:id="@+id/communication_skills"
+            android:title="Communication Skills"/>
+        <item android:id="@+id/how_to_think_series"
+            android:title="How to think series"/>
+        <item android:id="@+id/life_hacks_and_tips"
+            android:title="Life Hacks and Tips"/>
+        <item android:id="@+id/law_of_attraction_and_subconscious_mind_videos_in_telugu"
+            android:title="Law of attraction and Subconscious mind Videos in telugu"/>
+    </group>
+    <group
+        android:id="@+id/menu_social_media"
+        android:checkableBehavior="single">
+        <item android:id="@+id/social_media"
+            android:title="Social Media"/>
+        <item android:id="@+id/facebook"
+            android:title="Facebook" />
+        <item android:id="@+id/instagram"
+            android:title="Instagram" />
+    </group>
+    <group android:id="@+id/menu_other"
+    android:checkableBehavior="none">
+        <item android:id="@+id/other"
+            android:title="Other"/>
+        <item android:id="@+id/contact_us"
+            android:title="Contact Us" />
+    </group>
+</menu>
